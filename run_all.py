@@ -10,7 +10,11 @@ Usage:
 
 import argparse
 import logging
+import sys
 import time
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
 
 from src.preprocess import prepare_data, find_song_index
 from src.train import train_model, save_artifacts
@@ -30,9 +34,9 @@ DEMO_SONGS = [
 
 def _banner(text: str) -> None:
     w = 60
-    print("\n" + "═" * w)
+    print("\n" + "=" * w)
     print(f"  {text}")
-    print("═" * w)
+    print("=" * w)
 
 
 def run_pipeline(data_dir, model_dir, output_dir, demo_song=None, demo_artist=None):

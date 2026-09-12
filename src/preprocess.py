@@ -96,10 +96,18 @@ def load_raw_data(data_dir: str) -> pd.DataFrame:
     """
     path = os.path.join(data_dir, DATASET_FILENAME)
     if not os.path.exists(path):
-        raise FileNotFoundError(
-            f"Dataset not found at: {path}\n"
-            "Download from Kaggle and place as data/spotify_songs.csv"
-        )
+        sample_path = os.path.join(data_dir, "sample_spotify.csv")
+        if os.path.exists(sample_path):
+            logger.warning(
+                "Full dataset not found at '%s'. Running in DEMO mode using built-in sample_spotify.csv.",
+                path,
+            )
+            path = sample_path
+        else:
+            raise FileNotFoundError(
+                f"Dataset not found at: {path}\n"
+                "Download from Kaggle and place as data/spotify_songs.csv or use data/sample_spotify.csv"
+            )
 
     logger.info("Loading dataset from %s …", path)
     df = pd.read_csv(path)

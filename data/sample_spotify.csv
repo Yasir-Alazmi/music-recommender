@@ -1,0 +1,31 @@
+song_name,artist_name,genre,danceability,energy,loudness,speechiness,acousticness,instrumentalness,liveness,valence,tempo
+Blinding Lights,The Weeknd,Pop,0.514,0.73,-5.934,0.0598,0.00146,9.5e-05,0.0897,0.334,171.005
+Shape of You,Ed Sheeran,Pop,0.825,0.652,-3.183,0.0802,0.581,0.0,0.0931,0.931,95.977
+Someone Like You,Adele,Soul,0.559,0.33,-8.251,0.0285,0.892,0.0,0.099,0.285,135.109
+Bohemian Rhapsody,Queen,Rock,0.414,0.404,-9.961,0.0499,0.271,0.0,0.3,0.224,71.105
+Smells Like Teen Spirit,Nirvana,Grunge,0.502,0.912,-4.556,0.0564,2.5e-05,0.0003,0.106,0.72,116.761
+Lose Yourself,Eminem,Hip-Hop,0.692,0.744,-4.565,0.257,0.00923,0.000467,0.366,0.0596,171.375
+Clair de Lune,Claude Debussy,Classical,0.289,0.0135,-28.125,0.0425,0.995,0.933,0.0931,0.0712,60.105
+Fur Elise,Ludwig van Beethoven,Classical,0.312,0.125,-22.341,0.045,0.985,0.885,0.112,0.45,132.5
+Take Five,Dave Brubeck,Jazz,0.454,0.435,-11.954,0.0385,0.623,0.585,0.098,0.592,174.12
+Fly Me to the Moon,Frank Sinatra,Jazz,0.601,0.415,-9.415,0.0489,0.62,2e-06,0.107,0.654,119.5
+Titanium,David Guetta ft. Sia,EDM,0.604,0.787,-3.674,0.0984,0.0679,0.0001,0.126,0.301,126.008
+Levels,Avicii,EDM,0.582,0.887,-3.071,0.0354,0.0431,0.00287,0.312,0.504,126.002
+Hotel California,Eagles,Rock,0.579,0.508,-9.484,0.027,0.00574,0.000494,0.575,0.609,147.125
+Bad Guy,Billie Eilish,Electropop,0.701,0.425,-10.965,0.375,0.328,0.13,0.1,0.562,135.128
+Rolling in the Deep,Adele,Soul,0.729,0.756,-5.119,0.0294,0.131,0.0,0.0527,0.519,104.945
+Stayin Alive,Bee Gees,Disco,0.703,0.601,-9.4,0.0335,0.07,2.5e-05,0.14,0.95,103.56
+Get Lucky,Daft Punk,Disco,0.794,0.811,-8.966,0.0345,0.0426,1e-06,0.101,0.862,116.049
+Viva La Vida,Coldplay,Alternative,0.486,0.617,-7.115,0.0288,0.0964,3e-06,0.109,0.418,138.015
+Humble,Kendrick Lamar,Hip-Hop,0.908,0.621,-6.638,0.102,0.000282,5.4e-05,0.0958,0.421,150.011
+Gods Plan,Drake,Hip-Hop,0.754,0.449,-9.211,0.109,0.0332,8.3e-05,0.552,0.357,77.169
+Stairway to Heaven,Led Zeppelin,Rock,0.338,0.34,-12.049,0.0339,0.58,0.0032,0.116,0.197,82.433
+Sweet Child O Mine,Guns N Roses,Rock,0.446,0.939,-6.837,0.0587,0.0945,0.0,0.113,0.662,125.045
+Moonlight Sonata,Beethoven,Classical,0.184,0.051,-25.811,0.0426,0.979,0.892,0.0984,0.0384,66.89
+Canon in D,Johann Pachelbel,Classical,0.278,0.158,-21.433,0.0375,0.965,0.824,0.115,0.22,75.0
+So What,Miles Davis,Jazz,0.548,0.312,-14.654,0.046,0.68,0.45,0.089,0.485,136.2
+Wake Me Up,Avicii,EDM,0.532,0.783,-5.697,0.0523,0.0038,0.0012,0.161,0.64,124.08
+Lean On,Major Lazer,EDM,0.723,0.809,-3.084,0.0571,0.00346,0.00101,0.565,0.274,97.975
+As It Was,Harry Styles,Pop,0.52,0.731,-5.338,0.0557,0.342,0.00101,0.311,0.662,173.93
+Flowers,Miley Cyrus,Pop,0.707,0.681,-4.325,0.0655,0.0632,5e-06,0.0322,0.646,118.048
+Starboy,The Weeknd ft. Daft Punk,R&B,0.679,0.587,-7.015,0.276,0.141,6e-06,0.137,0.486,186.003

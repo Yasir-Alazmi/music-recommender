@@ -1,8 +1,15 @@
 # 🎵 Music Recommender System
 
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://python.org)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-1.4%2B-orange)](https://scikit-learn.org)
+[![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white)](app.py)
+[![CI](https://github.com/Yasir-Alazmi/music-recommender/actions/workflows/ci.yml/badge.svg)](https://github.com/Yasir-Alazmi/music-recommender/actions/workflows/ci.yml)
+[![Tests](https://img.shields.io/badge/Tests-23%20passed-brightgreen)](tests/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A content-based music recommendation engine built with **K-Nearest Neighbors**, Spotify audio features, and rich visualizations.
 
-> Given any song, find the most musically similar tracks — by danceability, energy, tempo, valence, and more.
+> **Given any song, find the most musically similar tracks — by danceability, energy, tempo, valence, and more. Built-in sample dataset enabled for zero-setup execution.**
 
 ---
 
