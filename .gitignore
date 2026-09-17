@@ -11,8 +11,9 @@ venv/
 env/
 .env
 
-# ── Dataset ────────────────────────────────────────────────────────────────────
-data/spotify_songs.csv
+# ── Dataset (allow curated 5,186-song dataset)
+# data/*.large.csv
+
 
 # ── Saved artifacts ─────────────────────────────────────────────────────────────
 models/*.joblib
